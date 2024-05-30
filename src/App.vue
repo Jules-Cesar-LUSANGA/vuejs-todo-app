@@ -78,7 +78,7 @@ onMounted(() => {
         
         <form @submit.prevent="saveTask()" class="mb-3">
           <div class="flex items-center justify-center">
-            <input type="text" v-model="addTask" name="addTask" id="addTask" class="border p-1 px-2 rounded-l-2xl">
+            <input type="text" v-model="addTask" name="addTask" id="addTask" class="border p-1 px-2 rounded-l-2xl" placeholder="Add new task">
             <button type="button" @click="saveTask()" class="bg-cyan-600 hover:bg-cyan-500 py-1 px-3 rounded-r-2xl">Add Task</button>
           </div>
         </form>
